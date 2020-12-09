@@ -1,0 +1,19 @@
+﻿using System;
+
+namespace DataTypesandVariables
+{
+    public class Lecture
+    {
+        static  int age = 15;
+        static float months = 2.567f; //graphics libraries high processing
+        static double days = 1.5; //real world values
+        static decimal seconds = 1.2343m; //financial
+        static char single_letter = 'A';
+        static string username = "Jason1995";
+        public static void Main(string[] args)
+        {
+            age = 20;
+            Console.WriteLine(age);
+        }
+    }
+}
